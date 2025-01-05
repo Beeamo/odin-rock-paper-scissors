@@ -2,11 +2,11 @@ function getComputerChoice() {
     let choice = Math.floor(Math.random() * 3) + 1
     switch (choice) {
         case 1:
-            return "Rock"
+            return 0
         case 2:
-            return "Paper"
+            return 1
         case 3:
-            return "Scissor"
+            return 2
     }
 }
 
@@ -16,11 +16,11 @@ function getHumanChoice() {
         let choice = prompt("What do you play?")
         switch (choice) {
             case "rock":
-                return "Rock"
+                return 0
             case "paper":
-                return "Paper"
+                return 1
             case "scissors":
-                return "Scissor"
+                return 2
         }
     }
 }
