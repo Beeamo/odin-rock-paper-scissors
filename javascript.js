@@ -9,3 +9,18 @@ function getComputerChoice() {
             return "Scissor"
     }
 }
+
+function getHumanChoice() {
+    let getChoice = false;
+    while (getChoice == false) {
+        let choice = prompt("What do you play?")
+        switch (choice) {
+            case "rock":
+                return "Rock"
+            case "paper":
+                return "Paper"
+            case "scissors":
+                return "Scissor"
+        }
+    }
+}
