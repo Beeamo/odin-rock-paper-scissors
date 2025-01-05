@@ -81,6 +81,12 @@ function playGame() {
         }
     }
 
+    if (humanScore > computerScore) {
+        console.log("You Win The Game!")
+    } else {
+        console.log("You Lose The Game!")
+    }
+
 
 
 }
